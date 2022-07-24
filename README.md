@@ -16,12 +16,12 @@ Install using your package manager of choice:
 
 There is no standard extension of Intermec Direct Protocol config files, so you will need to manually set filetype via Vim:
 
-```
+```viml
 :setf idp
 ```
 
 You can also add the following to your .vimrc to automatically asociate an extension to Intermec Direct Protocol;  say `.prt` files:
 
-```
+```viml
 autocmd BufNewFile,BufRead *.prt set filetype=idp
 ```
